@@ -34,14 +34,16 @@ while(time < hyperPeriod){
 			
 			
 			
-			if(currentTask != previousTask 
-					   && taskList.get(previousTask).getExecutedTime() > 0){
-				
-				int preEmption = taskList.get(previousTask).getPreEmption() + 1;
-				taskList.get(previousTask).setPreEmption(preEmption);
-				//Update Pre-Emp Count
-				System.out.println("\tPre-empting Task = " + taskList.get(previousTask).getTaskName());
-				
+			if(previousTask > -1){
+				if(currentTask != previousTask 
+						   && taskList.get(previousTask).getExecutedTime() > 0){
+					
+					int preEmption = taskList.get(previousTask).getPreEmption() + 1;
+					taskList.get(previousTask).setPreEmption(preEmption);
+					//Update Pre-Emp Count
+					System.out.println("\tPre-empting Task = " + taskList.get(previousTask).getTaskName());
+					
+				}
 			}
 			
 			

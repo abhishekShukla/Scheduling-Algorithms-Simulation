@@ -1,0 +1,594 @@
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+1		3	1	0		3		2		0		0		0			0
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+2		4	1	0		4		3		0		0		0			0
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+3		5	2	0		5		3		0		0		0			0
+
+
+
+RMS SCHEDULE
+
+Arranging by period
+
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+1		3	1	0		3		2		0		0		0			0
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+2		4	1	0		4		3		0		0		0			0
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+3		5	2	0		5		3		0		0		0			0
+Time = 0
+	Executing Task = 1
+	Completed Task = 1
+Time = 1
+	Executing Task = 2
+	Completed Task = 2
+Time = 2
+	Executing Task = 3
+Time = 3
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 4
+	Executing Task = 2
+	Completed Task = 2
+Time = 5
+	Executing Task = 3
+	Completed Task = 3
+Time = 6
+	Executing Task = 1
+	Completed Task = 1
+Time = 7
+	Executing Task = 3
+Time = 8
+	Executing Task = 2
+	Pre-empting Task = 3
+	Completed Task = 2
+Time = 9
+	Executing Task = 1
+	Completed Task = 1
+Time = 10
+	Executing Task = 3
+	Completed Task = 3
+Time = 11
+	Executing Task = 3
+Time = 12
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 13
+	Executing Task = 2
+	Completed Task = 2
+Time = 14
+	Executing Task = 3
+	Completed Task = 3
+Time = 15
+	Executing Task = 1
+	Completed Task = 1
+Time = 16
+	Executing Task = 2
+	Completed Task = 2
+Time = 17
+	Executing Task = 3
+Time = 18
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 19
+	Executing Task = 3
+	Completed Task = 3
+Time = 20
+	Executing Task = 2
+	Completed Task = 2
+Time = 21
+	Executing Task = 1
+	Completed Task = 1
+Time = 22
+	Executing Task = 3
+Time = 23
+	Executing Task = 3
+	Completed Task = 3
+Time = 24
+	Executing Task = 1
+	Completed Task = 1
+Time = 25
+	Executing Task = 2
+	Completed Task = 2
+Time = 26
+	Executing Task = 3
+Time = 27
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 28
+	Executing Task = 2
+	Completed Task = 2
+Time = 29
+	Executing Task = 3
+	Completed Task = 3
+Time = 30
+	Executing Task = 1
+	Completed Task = 1
+Time = 31
+	Executing Task = 3
+Time = 32
+	Executing Task = 2
+	Pre-empting Task = 3
+	Completed Task = 2
+Time = 33
+	Executing Task = 1
+	Completed Task = 1
+Time = 34
+	Executing Task = 3
+	Completed Task = 3
+Time = 35
+	Executing Task = 3
+Time = 36
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 37
+	Executing Task = 2
+	Completed Task = 2
+Time = 38
+	Executing Task = 3
+	Completed Task = 3
+Time = 39
+	Executing Task = 1
+	Completed Task = 1
+Time = 40
+	Executing Task = 2
+	Completed Task = 2
+Time = 41
+	Executing Task = 3
+Time = 42
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 43
+	Executing Task = 3
+	Completed Task = 3
+Time = 44
+	Executing Task = 2
+	Completed Task = 2
+Time = 45
+	Executing Task = 1
+	Completed Task = 1
+Time = 46
+	Executing Task = 3
+Time = 47
+	Executing Task = 3
+	Completed Task = 3
+Time = 48
+	Executing Task = 1
+	Completed Task = 1
+Time = 49
+	Executing Task = 2
+	Completed Task = 2
+Time = 50
+	Executing Task = 3
+Time = 51
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 52
+	Executing Task = 2
+	Completed Task = 2
+Time = 53
+	Executing Task = 3
+	Completed Task = 3
+Time = 54
+	Executing Task = 1
+	Completed Task = 1
+Time = 55
+	Executing Task = 3
+Time = 56
+	Executing Task = 2
+	Pre-empting Task = 3
+	Completed Task = 2
+Time = 57
+	Executing Task = 1
+	Completed Task = 1
+Time = 58
+	Executing Task = 3
+	Completed Task = 3
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+1		3	1	60		63		2		0		0		20			20
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+2		4	1	60		64		3		0		0		20			15
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+3		5	2	60		65		3		0		10		55			12
+Average Response Time for Task 1 = 1.0
+Average Response Time for Task 2 = 1.3333334
+Average Response Time for Task 3 = 4.5833335
+
+
+
+EDF SCHEDULE
+
+Arranging by Deadlines
+
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+1		3	1	0		3		2		0		0		0			0
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+2		4	1	0		4		3		0		0		0			0
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+3		5	2	0		5		3		0		0		0			0
+Time = 0
+	Executing Task = 1
+	Completed Task = 1
+Time = 1
+	Executing Task = 2
+	Completed Task = 2
+Time = 2
+	Executing Task = 3
+Time = 3
+	Executing Task = 3
+	Completed Task = 3
+Time = 4
+	Executing Task = 1
+	Completed Task = 1
+Time = 5
+	Executing Task = 2
+	Completed Task = 2
+Time = 6
+	Executing Task = 1
+	Completed Task = 1
+Time = 7
+	Executing Task = 3
+Time = 8
+	Executing Task = 3
+	Completed Task = 3
+Time = 9
+	Executing Task = 1
+	Completed Task = 1
+Time = 10
+	Executing Task = 2
+	Completed Task = 2
+Time = 11
+	Executing Task = 3
+Time = 12
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 13
+	Executing Task = 3
+	Completed Task = 3
+Time = 14
+	Executing Task = 2
+	Completed Task = 2
+Time = 15
+	Executing Task = 1
+	Completed Task = 1
+Time = 16
+	Executing Task = 2
+	Completed Task = 2
+Time = 17
+	Executing Task = 3
+Time = 18
+	Executing Task = 3
+	Completed Task = 3
+Time = 19
+	Executing Task = 1
+	Completed Task = 1
+Time = 20
+	Executing Task = 2
+	Completed Task = 2
+Time = 21
+	Executing Task = 1
+	Completed Task = 1
+Time = 22
+	Executing Task = 3
+Time = 23
+	Executing Task = 3
+	Completed Task = 3
+Time = 24
+	Executing Task = 1
+	Completed Task = 1
+Time = 25
+	Executing Task = 2
+	Completed Task = 2
+Time = 26
+	Executing Task = 3
+Time = 27
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 28
+	Executing Task = 3
+	Completed Task = 3
+Time = 29
+	Executing Task = 2
+	Completed Task = 2
+Time = 30
+	Executing Task = 1
+	Completed Task = 1
+Time = 31
+	Executing Task = 3
+Time = 32
+	Executing Task = 3
+	Completed Task = 3
+Time = 33
+	Executing Task = 1
+	Completed Task = 1
+Time = 34
+	Executing Task = 2
+	Completed Task = 2
+Time = 35
+	Executing Task = 3
+Time = 36
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 37
+	Executing Task = 2
+	Completed Task = 2
+Time = 38
+	Executing Task = 3
+	Completed Task = 3
+Time = 39
+	Executing Task = 1
+	Completed Task = 1
+Time = 40
+	Executing Task = 2
+	Completed Task = 2
+Time = 41
+	Executing Task = 3
+Time = 42
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 43
+	Executing Task = 3
+	Completed Task = 3
+Time = 44
+	Executing Task = 2
+	Completed Task = 2
+Time = 45
+	Executing Task = 1
+	Completed Task = 1
+Time = 46
+	Executing Task = 3
+Time = 47
+	Executing Task = 3
+	Completed Task = 3
+Time = 48
+	Executing Task = 1
+	Completed Task = 1
+Time = 49
+	Executing Task = 2
+	Completed Task = 2
+Time = 50
+	Executing Task = 3
+Time = 51
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 52
+	Executing Task = 3
+	Completed Task = 3
+Time = 53
+	Executing Task = 2
+	Completed Task = 2
+Time = 54
+	Executing Task = 1
+	Completed Task = 1
+Time = 55
+	Executing Task = 3
+Time = 56
+	Executing Task = 2
+	Pre-empting Task = 3
+	Completed Task = 2
+Time = 57
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 58
+	Executing Task = 3
+	Completed Task = 3
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+1		3	1	60		63		2		0		0		22			20
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+2		4	1	60		64		3		0		0		28			15
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+3		5	2	60		65		3		0		7		45			12
+Average Response Time for Task 1 = 1.1
+Average Response Time for Task 2 = 1.8666667
+Average Response Time for Task 3 = 3.75
+
+
+
+LST SCHEDULE
+
+Arranging by Deadlines
+
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+1		3	1	0		3		2		0		0		0			0
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+2		4	1	0		4		3		0		0		0			0
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+3		5	2	0		5		3		0		0		0			0
+Time = 0
+	Executing Task = 1
+	Completed Task = 1
+Time = 1
+	Executing Task = 2
+	Completed Task = 2
+Time = 2
+	Executing Task = 3
+Time = 3
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 4
+	Executing Task = 2
+	Completed Task = 2
+Time = 5
+	Executing Task = 3
+	Completed Task = 3
+Time = 6
+	Executing Task = 1
+	Completed Task = 1
+Time = 7
+	Executing Task = 3
+Time = 8
+	Executing Task = 2
+	Pre-empting Task = 3
+	Completed Task = 2
+Time = 9
+	Executing Task = 1
+	Completed Task = 1
+Time = 10
+	Executing Task = 3
+	Completed Task = 3
+Time = 11
+	Executing Task = 3
+Time = 12
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 13
+	Executing Task = 2
+	Completed Task = 2
+Time = 14
+	Executing Task = 3
+	Completed Task = 3
+Time = 15
+	Executing Task = 1
+	Completed Task = 1
+Time = 16
+	Executing Task = 2
+	Completed Task = 2
+Time = 17
+	Executing Task = 3
+Time = 18
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 19
+	Executing Task = 3
+	Completed Task = 3
+Time = 20
+	Executing Task = 2
+	Completed Task = 2
+Time = 21
+	Executing Task = 1
+	Completed Task = 1
+Time = 22
+	Executing Task = 3
+Time = 23
+	Executing Task = 3
+	Completed Task = 3
+Time = 24
+	Executing Task = 1
+	Completed Task = 1
+Time = 25
+	Executing Task = 2
+	Completed Task = 2
+Time = 26
+	Executing Task = 3
+Time = 27
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 28
+	Executing Task = 2
+	Completed Task = 2
+Time = 29
+	Executing Task = 3
+	Completed Task = 3
+Time = 30
+	Executing Task = 1
+	Completed Task = 1
+Time = 31
+	Executing Task = 3
+Time = 32
+	Executing Task = 2
+	Pre-empting Task = 3
+	Completed Task = 2
+Time = 33
+	Executing Task = 1
+	Completed Task = 1
+Time = 34
+	Executing Task = 3
+	Completed Task = 3
+Time = 35
+	Executing Task = 3
+Time = 36
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 37
+	Executing Task = 2
+	Completed Task = 2
+Time = 38
+	Executing Task = 3
+	Completed Task = 3
+Time = 39
+	Executing Task = 1
+	Completed Task = 1
+Time = 40
+	Executing Task = 2
+	Completed Task = 2
+Time = 41
+	Executing Task = 3
+Time = 42
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 43
+	Executing Task = 3
+	Completed Task = 3
+Time = 44
+	Executing Task = 2
+	Completed Task = 2
+Time = 45
+	Executing Task = 1
+	Completed Task = 1
+Time = 46
+	Executing Task = 3
+Time = 47
+	Executing Task = 3
+	Completed Task = 3
+Time = 48
+	Executing Task = 1
+	Completed Task = 1
+Time = 49
+	Executing Task = 2
+	Completed Task = 2
+Time = 50
+	Executing Task = 3
+Time = 51
+	Executing Task = 1
+	Pre-empting Task = 3
+	Completed Task = 1
+Time = 52
+	Executing Task = 2
+	Completed Task = 2
+Time = 53
+	Executing Task = 3
+	Completed Task = 3
+Time = 54
+	Executing Task = 1
+	Completed Task = 1
+Time = 55
+	Executing Task = 3
+Time = 56
+	Executing Task = 2
+	Pre-empting Task = 3
+	Completed Task = 2
+Time = 57
+	Executing Task = 1
+	Completed Task = 1
+Time = 58
+	Executing Task = 3
+	Completed Task = 3
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+1		3	1	60		63		2		0		0		20			20
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+2		4	1	60		64		3		0		0		20			15
+Task Name	Period	WCET	Arrival Time	Deadline	Slacktime	Deadline Misses	PreEmptions	TotalResponseTime	Number of Completions
+3		5	2	60		65		3		0		10		55			12
+Average Response Time for Task 1 = 1.0
+Average Response Time for Task 2 = 1.3333334
+Average Response Time for Task 3 = 4.5833335
