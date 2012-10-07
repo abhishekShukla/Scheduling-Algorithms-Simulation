@@ -28,6 +28,11 @@ The following items have been submitted as a part of the assignment:
 	
 5. Report
 
+6. Pre-compiled classes and jar file is submitted in the folder
+	
+	build/classes/*
+	build/jar/Schedulers.jar
+
 Pre-Requisites: 
 
 1. Java installed
