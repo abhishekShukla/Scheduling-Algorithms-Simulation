@@ -5,9 +5,8 @@ import java.util.Collections;
 
 public class EdfScheduler {
 	
-	public static void EdfSchedule(ArrayList<Tasks> taskList){
+	public static void EdfSchedule(ArrayList<Tasks> taskList, int hyperPeriod){
 		
-		int hyperPeriod = 21;
 		int time = 0;
 		int previousTask = 0;
 		

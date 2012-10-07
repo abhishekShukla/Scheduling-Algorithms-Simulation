@@ -93,24 +93,99 @@ public class ReadInput {
 	
 	public static void main(String Args[]){
 		
+		String fileName = null;
+		int hyperPeriod = 0;
+		String scheduler = null;
 		ArrayList<Tasks> taskList = new ArrayList<Tasks>();
-		taskList = ReadInput.ReadInputFile("input.txt");
-		ReadInput.printTask(taskList);
-		System.out.println("\n\n");
-		RmsScheduler.RmsSchedule(taskList);
+		
+		if(Args.length != 3){
+			System.out.println("Usage: java ReadInput \"<input file>\" \"<scheduler>\" <simulation time>");
+			System.out.println("input file: Absolute path  to the Input File");
+			System.out.println("Scheduler name: RMS or EDF or LST or ALL");
+			System.out.println("Simulation Time must be an Integer > 0");
+			System.out.println("If Simulation Time = n, simulation will run for n time units");
+			System.exit(1);
+		}
+		else{
+			fileName = Args[0];
+			
+			if(Args[1].toLowerCase().equals("rms") || 
+			   Args[1].toLowerCase().equals("edf") ||
+			   Args[1].toLowerCase().equals("lst") ||
+			   Args[1].toLowerCase().equals("all")){
+				
+				scheduler = Args[1];
+				
+			}
+			else{
+				System.out.println("Scheduler name must be: RMS or EDF or LST or ALL");
+				System.exit(1);
+			}
+			
+			try{
+				hyperPeriod = Integer.parseInt(Args[2]);
+				
+				if(hyperPeriod <= 0){
+					System.out.println("Simulation Time must be an Integer > 0");
+					System.exit(1);
+				}
+			}
+			catch(NumberFormatException N){
+				System.out.println("TIME MUST BE AN INTEGER!");
+				N.printStackTrace();
+				System.exit(1);
+			}
+		}
 		
 		
-		taskList = new ArrayList<Tasks>();
-		taskList = ReadInput.ReadInputFile("input.txt");
-		System.out.println("\n\n");
-		EdfScheduler.EdfSchedule(taskList);
-		
-		
-		taskList = new ArrayList<Tasks>();
-		taskList = ReadInput.ReadInputFile("input.txt");
-		System.out.println("\n\n");
-		LstScheduler.LstSchedule(taskList);
-		
+		if(scheduler.toLowerCase().equals("rms")){
+			
+			taskList = ReadInput.ReadInputFile(fileName);
+			ReadInput.printTask(taskList);
+			System.out.println("\n\n");
+			RmsScheduler.RmsSchedule(taskList, hyperPeriod);
+			
+		}
+		else if(scheduler.toLowerCase().equals("edf")){
+			
+			taskList = new ArrayList<Tasks>();
+			taskList = ReadInput.ReadInputFile(fileName);
+			System.out.println("\n\n");
+			EdfScheduler.EdfSchedule(taskList, hyperPeriod);
+			
+		}
+		else if(scheduler.toLowerCase().equals("lst")){
+			
+			taskList = new ArrayList<Tasks>();
+			taskList = ReadInput.ReadInputFile(fileName);
+			System.out.println("\n\n");
+			LstScheduler.LstSchedule(taskList, hyperPeriod);
+			
+		}
+		else if(scheduler.toLowerCase().equals("all")){
+			
+			taskList = ReadInput.ReadInputFile(fileName);
+			ReadInput.printTask(taskList);
+			System.out.println("\n\n");
+			RmsScheduler.RmsSchedule(taskList, hyperPeriod);
+			
+			
+			taskList = new ArrayList<Tasks>();
+			taskList = ReadInput.ReadInputFile(fileName);
+			System.out.println("\n\n");
+			EdfScheduler.EdfSchedule(taskList, hyperPeriod);
+			
+			
+			taskList = new ArrayList<Tasks>();
+			taskList = ReadInput.ReadInputFile(fileName);
+			System.out.println("\n\n");
+			LstScheduler.LstSchedule(taskList, hyperPeriod);
+			
+		}
+		else{
+			System.out.println("Scheduler name: RMS or EDF or LST or ALL");
+			System.exit(1);
+		}
 		
 	}
 	
